@@ -1,0 +1,49 @@
+/* Updated: 2026-03-28 */
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #ffffff; /* Web sayfasının arka plan rengi */
+    color: #000000; /* Metin rengi */
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+    width: 100%;
+}
+
+h1 {
+    color: #000000; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li {
+    list-style-position: inside;
+}
+
+/* Silah Özellikleri Boyutlandırması */
+h3[style*="#d4a05b"] {
+    font-size: 27.5px !important;
+}
+
+p[style*="13.75px"] {
+    font-size: 17.1875px !important;
+}
+
+ul[style*="13.75px"] {
+    font-size: 17.1875px !important;
+}
